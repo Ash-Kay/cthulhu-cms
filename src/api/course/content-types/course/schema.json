@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "courses",
+  "info": {
+    "singularName": "course",
+    "pluralName": "courses",
+    "displayName": "Course"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "price": {
+      "type": "string"
+    },
+    "isCertProvided": {
+      "type": "boolean"
+    },
+    "difficulty": {
+      "type": "enumeration",
+      "enum": [
+        "beginner",
+        "intermediate",
+        "expert"
+      ]
+    },
+    "accessTime": {
+      "type": "string"
+    },
+    "courseDuration": {
+      "type": "decimal"
+    },
+    "externalRating": {
+      "type": "decimal"
+    },
+    "internalRating": {
+      "type": "decimal"
+    },
+    "language": {
+      "type": "string"
+    },
+    "contentType": {
+      "type": "string"
+    },
+    "isCodingEnvProvided": {
+      "type": "boolean"
+    }
+  }
+}
