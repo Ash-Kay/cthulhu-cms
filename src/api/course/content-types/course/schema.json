@@ -4,7 +4,8 @@
   "info": {
     "singularName": "course",
     "pluralName": "courses",
-    "displayName": "Course"
+    "displayName": "Course",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -45,6 +46,17 @@
     },
     "isCodingEnvProvided": {
       "type": "boolean"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "System Design",
+        "Android Development",
+        "Full Stack Web Development"
+      ]
+    },
+    "name": {
+      "type": "string"
     }
   }
 }
