@@ -15,9 +15,9 @@
       "type": "string",
       "required": true
     },
-    "course": {
+    "courses": {
       "type": "relation",
-      "relation": "manyToOne",
+      "relation": "manyToMany",
       "target": "api::course.course",
       "inversedBy": "categories"
     }
