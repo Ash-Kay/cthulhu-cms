@@ -26,9 +26,6 @@
         "expert"
       ]
     },
-    "accessTime": {
-      "type": "string"
-    },
     "courseDuration": {
       "type": "decimal"
     },
@@ -60,6 +57,34 @@
       "relation": "manyToMany",
       "target": "api::category.category",
       "mappedBy": "courses"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "externalRatingCount": {
+      "type": "integer"
+    },
+    "accessTime": {
+      "type": "enumeration",
+      "enum": [
+        "per year",
+        "lifetime"
+      ]
+    },
+    "instructors": {
+      "type": "string"
+    },
+    "currencyType": {
+      "type": "enumeration",
+      "enum": [
+        "INR",
+        "USD",
+        "EUR"
+      ]
     }
   }
 }

@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "configs",
+  "info": {
+    "singularName": "config",
+    "pluralName": "configs",
+    "displayName": "Config",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "showBuyAtTop": {
+      "type": "boolean",
+      "default": false
+    },
+    "showCourseRank": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
